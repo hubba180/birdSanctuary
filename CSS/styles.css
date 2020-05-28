@@ -1,25 +1,35 @@
+body{
+  background-color: grey;
+}
+
 .parakeetContainer {
-  display: grid;
-  grid-template-columns: 1/3vw 1/3vw 1/3vw;
-  grid-template-rows: minmax(100px, auto);
+  /*display: grid;*/
+  font-family: helvetica, sans-serif;
+  /*grid-template-columns: 1/3vw 1/3vw 1/3vw;
+  grid-template-rows: minmax(100px, auto);*/
 }
 
 .Jim {
   grid-column: 2/3;
   grid-row: 1;
+  background-color: blue;
 }
 
 .Edith {
   grid-column: 2/3;
   grid-row: 2;
+  background-color: teal;
 }
 
 .Kenneth {
   grid-column: 2/3;
   grid-row: 3;
+  background-color: magenta;
 }
 
 .Josie {
   grid-column: 2/3
   grid-row: 4;
+  background-color: black;  
 }
+
