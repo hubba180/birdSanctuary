@@ -1,0 +1,25 @@
+.parakeetContainer {
+  display: grid;
+  grid-template-columns: 1/3vw 1/3vw 1/3vw;
+  grid-template-rows: minmax(100px, auto);
+}
+
+.Jim {
+  grid-column: 2/3;
+  grid-row: 1;
+}
+
+.Edith {
+  grid-column: 2/3;
+  grid-row: 2;
+}
+
+.Kenneth {
+  grid-column: 2/3;
+  grid-row: 3;
+}
+
+.Josie {
+  grid-column: 2/3
+  grid-row: 4;
+}
