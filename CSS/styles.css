@@ -1,36 +1,34 @@
 body {
   background-color: grey;
+  text-align: center;
 }
 
 .parakeetContainer {
-  /*display: grid;*/
+  display: flex;
+  border: 1px solid red;
   font-family: helvetica, sans-serif;
-  /*grid-template-columns: 1/3vw 1/3vw 1/3vw;
-  grid-template-rows: minmax(100px, auto);*/
+  flex-direction: column;
+  align-items: center;
 }
 
 .Jim {
-  grid-column: 2/3;
-  grid-row: 1;
+  border: 1px solid green;
   background-color: blue;
 }
 
 .Edith {
-  grid-column: 2/3;
-  grid-row: 2;
+  border: 1px solid pink;
   background-color: teal;
 }
 
 .Kenneth {
-  grid-column: 2/3;
-  grid-row: 3;
+  border: 1px solid grey;
   background-color: magenta;
 }
 
 .Josie {
-  grid-column: 2/3
-  grid-row: 4;
-  background-color: black;  
+  border: 1px solid pink;
+  background-color: yellow;  
 }
 
 @media screen and (max-width: 900px) {
@@ -46,4 +44,14 @@ body {
     color: purple;
   }
 
+}
+
+img {
+  height: 500px;
+  width:500px;
+}
+
+.Jim, .Edith, .Kenneth, .Josie {
+  width: 100vw;
+  
 }
