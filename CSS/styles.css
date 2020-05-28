@@ -1,4 +1,4 @@
-body{
+body {
   background-color: grey;
 }
 
@@ -33,3 +33,17 @@ body{
   background-color: black;  
 }
 
+@media screen and (max-width: 900px) {
+  body {
+    background-color: salmon;
+    color: yellow;
+  }
+
+}
+@media screen and (max-width: 580px) {
+  body {
+    background-color: yellow;
+    color: purple;
+  }
+
+}
